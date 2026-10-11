@@ -1,0 +1,7 @@
+{
+    "Name":"Little login manager",
+    "Description":"Little login manager based on qtWebEngine",
+    "Author":"Maxsspeaker",
+    "Id":"space.maxsspeaker.wave.login_manager",
+    "dependencies":[]
+}
