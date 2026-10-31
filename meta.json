@@ -3,5 +3,6 @@
     "Description":"Little login manager based on qtWebEngine",
     "Author":"Maxsspeaker",
     "Id":"space.maxsspeaker.wave.login_manager",
-    "dependencies":[]
+    "dependencies":[],
+    "compatibleWith":["6.2.x>","6.1.x"]
 }

@@ -77,7 +77,7 @@ class LittleLoginManager(PluginBase):
         sys.modules['modules.extractors'].build_ytdlp_browser_args = self.build_ytdlp_browser_args
 
         self.loginManager_menu = self.main_window.MainMenuBar.add_submenu(
-            self.main_window.PlguinMenu, "Little Login Manager", hide_if_empty=False
+            self.main_window.PluginMenu, "Little Login Manager", hide_if_empty=False
         )
 
         self.toggle_action = self.loginManager_menu.addAction("Show browser", self.open_browser)
